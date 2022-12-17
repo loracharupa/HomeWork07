@@ -1,0 +1,26 @@
+/* 10 */
+.menu {
+    font-size: 0;
+    outline: 2px solid green;
+}
+/* 10 */
+.menu__item {
+    font-size: 1rem;
+    display: inline-block;
+    outline: 2px solid orangered;
+}
+/* 10 */
+.menu__link {
+    position: relative;
+    outline: 2px solid purple;
+}
+/* 30 */
+.menu__item:hover .submenu {
+    display: block;
+}
+/* 10 */
+.submenu {
+    position: absolute;
+    display: none;
+    outline: 2px solid lawngreen;
+}
